@@ -30,6 +30,9 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+
+    transition: width .3s , height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     display: block;
@@ -38,6 +41,9 @@ section#login > div#imagem{
     background-color: blue;
     background-size: cover;
     height: 250px;
+    background-position: left, top;
+    
+    
 }
 
 section#login > div#formulario{
