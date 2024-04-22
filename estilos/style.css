@@ -125,6 +125,18 @@ form a.botao{
         
         border-radius: 7px;
     }
+
+    #logo{
+        width: 232px;
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        display: inline-block;
+        left: 63%;
+        top: 46%;
+        transform: translate(-50% , -90%);
+        
+    }
     
     div.campo > input{
         background-color: orange;

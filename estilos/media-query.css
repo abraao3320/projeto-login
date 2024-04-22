@@ -39,7 +39,11 @@ Grandes telas: acima de 1200px
         width: calc(100% - 15%);
         display: inline-block;
     }
+
     
+    #logo{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -86,6 +90,10 @@ Grandes telas: acima de 1200px
         transform: translateY(-12px);
         
 
+    }
+
+    #logo{
+        display: none;
     }
 }
 
