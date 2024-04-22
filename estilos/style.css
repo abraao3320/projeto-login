@@ -127,12 +127,12 @@ form a.botao{
     }
 
     #logo{
-        width: 232px;
+        width: 170px;
         position: absolute;
         font-size: 1em;
         color: white;
         display: inline-block;
-        left: 63%;
+        left: 50%;
         top: 46%;
         transform: translate(-50% , -90%);
         
